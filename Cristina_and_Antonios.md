@@ -1,8 +1,8 @@
 ## Git
 
-*AS A* marionete_developer
-*I WANT TO* be fluent in GIT repos
-*SO THAT I* can improve my productivity
+**AS A** marionete_developer
+**I WANT TO** be fluent in GIT repos
+**SO THAT I** can improve my productivity
 
 | Working Copy                | Staging Copy                           | Repository               |
 |-----------------------------|----------------------------------------|--------------------------|
@@ -13,7 +13,7 @@
 
 ### USER STORIES
  
-*INVEST* concept
+**INVEST** concept
 
 Independent
 Negotiable
@@ -59,7 +59,7 @@ QA up in the process, and allows for easy transformation to an acceptance test-d
 negotiable above, asking the magic questioncan help ensure the user story is testable as well.
 
 
-*What to do with large user stories?*
+**What to do with large user stories?**
 
 SSST
 
@@ -69,7 +69,7 @@ Stub
 Time-box
 
 
-*EPIC* is a group of related User Stories
+**EPIC** is a group of related User Stories
 
 ## Docker
 * Content agnostic
@@ -84,10 +84,10 @@ There are no worries about missing dependencies!
 It's  a scheduler that allows distributed applications
 
 As a developers
-We build *distributed applications*
-That run on a *multi-tenant cluster*
-That runs on *an framework*
-That is *mesos*
+We build **distributed applications**
+That run on a **multi-tenant cluster**
+That runs on **an framework**
+That is **mesos**
 
 ## Cloud Terminology
 
@@ -97,7 +97,18 @@ That is *mesos*
 
 ![cloud-schema](cloudschema.png)
 
+**Vertical vs Horizontal**
+
+* We can scale adding small devices instad of getting a bigger one
+* Vertical is hard to scale
+* horizontal is elastic
+
+* As a consumers, we live outside the cloud and communicate with an entire cloud of infraestructure, platforms and softwares
+* Focus on busines not in architecture/infrastructure
+
 ### Digital Ocean
+
+[YouTube Channel](https://www.youtube.com/user/DigitalOceanVideos)
 
 In D.O each instance is a droplet
 
@@ -112,7 +123,7 @@ In D.O each instance is a droplet
 Access 
 `ssh root@DROPLET_IP`
 
+### Google Cloud Platform
 
-### Google Cloud 
-
+[Slides](http://pt.slideshare.net/kpbird/understanding-cloud-with-google-cloud-platform)
 
