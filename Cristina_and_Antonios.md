@@ -133,3 +133,20 @@ Access
 
 [Documentation](https://aws.amazon.com/documentation/)
 
+## Project WebSite how to
+
+1. Create a droplet @ digital ocean
+2. Create a bitbucket repo
+3. @ local
+    1. git init
+    2. git add remote <bitbucket address>
+    3. create index.html
+    4. git add
+    5. git commit -m "my fancy message"
+    6. git push origin master
+4. ssh root@DROPLET_IP
+5. apt-get install docker.io
+6. docker pull httpd
+7. cd ~
+8. git clone BITBUCKET_IP
+9 docker run -it -p 80:80 --rm --name WE_HAVE_A_NAME_HERE -v /root/GIT_REPO_NAME:/usr/local/apache2/htdocs/ httpd:2.4
