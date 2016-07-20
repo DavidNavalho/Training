@@ -77,6 +77,9 @@ Time-box
 	
 There are no worries about missing dependencies!
 
+[Docker tutorial](https://docs.docker.com/engine/tutorials/dockerizing/)
+
+
 ## Mesos
 It's  a scheduler that allows distributed applications
 
@@ -85,4 +88,31 @@ We build *distributed applications*
 That run on a *multi-tenant cluster*
 That runs on *an framework*
 That is *mesos*
+
+## Cloud Terminology
+
+* IaaS
+* PaaS
+* SaaS
+
+![cloud-schema](cloudschema.png)
+
+### Digital Ocean
+
+In D.O each instance is a droplet
+
+**How to create a droplet?**
+* create a droplet
+* choose option $
+* select region
+* add SSH
+* select how many droplets and name it
+* CREATE
+
+Access 
+`ssh root@DROPLET_IP`
+
+
+### Google Cloud 
+
 
