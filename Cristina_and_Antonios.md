@@ -63,10 +63,10 @@ negotiable above, asking the magic questioncan help ensure the user story is te
 
 SSST
 
-Spike
-Slice
-Stub
-Time-box
+* Spike
+* Slice
+* Stub
+* Time-box
 
 
 **EPIC** is a group of related User Stories
@@ -95,15 +95,13 @@ That is **mesos**
 * PaaS
 * SaaS
 
-![cloud-schema](cloudschema.png)
-
 **Vertical vs Horizontal**
 
 * We can scale adding small devices instad of getting a bigger one
 * Vertical is hard to scale
 * horizontal is elastic
 
-* As a consumers, we live outside the cloud and communicate with an entire cloud of infraestructure, platforms and softwares
+* As a consumers, we live outside the cloud and communicate with an entire cloud of infraestructure, platforms and softwares 
 * Focus on busines not in architecture/infrastructure
 
 ### Digital Ocean
@@ -126,4 +124,11 @@ Access
 ### Google Cloud Platform
 
 [Slides](http://pt.slideshare.net/kpbird/understanding-cloud-with-google-cloud-platform)
+
+[Quickstart](https://cloud.google.com/compute/docs/quickstarts)
+
+### Amazon AWS
+
+[Slides](http://www.slideshare.net/AmazonWebServices/introduction-to-amazon-web-services-7708257)
+[Documentation](https://aws.amazon.com/documentation/)
 
